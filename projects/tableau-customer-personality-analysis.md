@@ -68,6 +68,6 @@
 
 ## 🔗 Links
 
-- [View Live Tableau Dashboard](https://public.tableau.com/views/YOUR-LINK-HERE)
+- [View Live Tableau Dashboard](https://public.tableau.com/shared/F5938DT8S?:display_count=n&:origin=viz_share_link)
 - [Dataset on Kaggle](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis)
 
