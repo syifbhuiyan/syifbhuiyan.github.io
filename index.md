@@ -7,7 +7,7 @@ I'm a data analyst and aspiring data scientist who turns raw data into insights 
 Explore my work below 👇
 - [Sales Dashboard in Power BI](projects/sales-dashboard.md)
 - [Data Cleaning in Python](projects/data-cleaning-project.md)
-- [Survey Analysis in Tableau](projects/tableau-survey-analysis.md)
+- [Customer-Personality Analysis in Tableau](projects/tableau-customer-personality-analysis.md)
 
 📩 Contact me at syifnibir@gmail.com
 
