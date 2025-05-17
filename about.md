@@ -22,8 +22,8 @@ Clients appreciate my ability to:
 Whether you need a one-time dashboard or ongoing data support, I’m here to help.
 
 ### 📜 Certifications
-- [Data Analyst Associate Certificate](../assets/certifications/data-analyst-associate.pdf)
-- [Data Literacy Certificate](../assets/certifications/data-literacy.pdf)
+- [Data Analyst Associate Certificate](/assets/certifications/data-analyst-associate.pdf)
+- [Data Literacy Certificate](/assets/certifications/data-literacy.pdf)
 
 More certifications will be added here as I continue learning.
 
