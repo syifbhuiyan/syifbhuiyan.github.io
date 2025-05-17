@@ -110,7 +110,11 @@ Ranks the customers who spent the most.
 ## 🖼️ Screenshots
 
 📁 Stored in: [`assets/sql-project/`](assets/sql-project/)  
-📌 
+📌 ![First 5 Customers](../assets/sql-project/first-5-customers.png)
+📌 ![Unique Countries with Customers](../assets/sql-project/Unique-Countries.png)
+📌 ![Total Number of Invoices](../assets/sql-project/invoices.png)
+📌 ![Total Sales by Country](../assets/sql-project/sales-country.png)
+📌 ![Top 5 Customers by Revenue](../assets/sql-project/money-spent.png)
 ---
 
 ## 📁 Files in this Project
