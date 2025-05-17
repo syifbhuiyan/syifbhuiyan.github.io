@@ -4,4 +4,9 @@ I've completed 9 career tracks and 13 skill tracks from DataCamp, covering Pytho
 
 I enjoy solving real-world problems with data — whether it's cleaning messy datasets, building dashboards, or extracting insights that matter.
 
-[See my full certifications list here.](#)
+### 📜 Certifications
+
+- [Data Analyst Associate Certificate](../assets/certifications/data-analyst-associate.pdf)
+- [Data Literacy Certificate](../assets/certifications/data-literacy-certificate.pdf)
+
+More certifications will be added here as I continue learning!
