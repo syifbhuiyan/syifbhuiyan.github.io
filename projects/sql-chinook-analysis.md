@@ -36,7 +36,7 @@ The goal is to write and interpret simple SQL queries to extract insights about 
 ### 1. 🧑 First 5 Customers
 
 ```sql
-SELECT * FROM customers LIMIT 5;
+SELECT * FROM Customer LIMIT 5;;
 ```
 
 This query previews a few customer records to understand the available columns.
@@ -46,7 +46,7 @@ This query previews a few customer records to understand the available columns.
 ### 2. 🌍 Unique Countries with Customers
 
 ```sql
-SELECT DISTINCT country FROM customers;
+SELECT DISTINCT country FROM customer;
 ```
 
 Identifies the countries from which the company has customers.
@@ -56,7 +56,7 @@ Identifies the countries from which the company has customers.
 ### 3. 🧾 Total Number of Invoices
 
 ```sql
-SELECT COUNT(*) AS total_invoices FROM invoices;
+SELECT COUNT(*) AS total_invoices FROM invoice;
 ```
 
 Returns the total number of purchases recorded.
@@ -67,7 +67,7 @@ Returns the total number of purchases recorded.
 
 ```sql
 SELECT billingcountry, SUM(total) AS total_sales
-FROM invoices
+FROM invoice
 GROUP BY billingcountry
 ORDER BY total_sales DESC;
 ```
@@ -80,7 +80,7 @@ This aggregates total revenue per billing country.
 
 ```sql
 SELECT customerid, SUM(total) AS amount_spent
-FROM invoices
+FROM invoice
 GROUP BY customerid
 ORDER BY amount_spent DESC
 LIMIT 5;
