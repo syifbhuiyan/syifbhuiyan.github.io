@@ -1,17 +1,29 @@
 # 👋 Hi, I'm Syif M. Bhuiyan
 
-I'm a data analyst and aspiring data scientist who turns raw data into insights that drive business results. I specialize in Python, SQL, Excel, Google Sheets, Power BI, and Tableau.
+I’m a data analyst who helps businesses uncover insights and build smarter solutions through data. I specialize in Python, SQL, Excel, Power BI, Tableau, and Google Sheets.
 
-📄 [Know More About Me](about.md)
+I’ve worked on public dataset projects ranging from automation and database querying to dashboard creation and exploratory data analysis — with the goal of making data easier to understand and act on.
 
+🎯 **Available for freelance projects and collaborations**
 
-🎯 **Available for freelance gigs!**
+---
 
+## 📂 Featured Projects
 
-Explore my work below 👇
-- [SQL Data Analysis: Chinook Music Store](projects/sql-chinook-analysis.md)
-- [Google Sheet Automation](projects/google-sheet-automation.md)
-- [Customer-Personality Analysis in Tableau](projects/tableau-customer-personality-analysis.md)
+- [SQL Data Analysis: Chinook Music Store](projects/sql-chinook-analysis.md)  
+  Exploratory data analysis on a music store's sales and customer behavior using SQL queries.
 
+- [Google Sheet Automation](projects/google-sheet-automation.md)  
+  Streamlined manual workflows using formulas and conditional formatting in Google Sheets.
 
-📩 Contact me at [syifnibir@gmail.com](mailto:syifnibir@gmail.com)
+- [Customer-Personality Analysis in Tableau](projects/tableau-customer-personality-analysis.md)  
+  Built an interactive dashboard for visualizing customer segmentation data.
+
+---
+
+## 📄 Learn More
+
+- [About Me](about.md)
+- [View My Certifications](about.md#certifications)
+
+📩 [Contact me](mailto:syifnibir@gmail.com) to discuss your project!
