@@ -109,20 +109,20 @@ Ranks the customers who spent the most.
 
 ## 🖼️ Screenshots
 
-📁 Stored in: `assets/sql-project/`  
-📌 Include screenshots of the results for each query here in your GitHub repo.
-
+📁 Stored in: [`assets/sql-project/`](assets/sql-project/)  
+📌 
 ---
 
 ## 📁 Files in this Project
 
 | File | Description |
 |------|-------------|
-| `Chinook_Sqlite.sqlite` | The SQLite database file |
-| `sql-chinook-analysis.md` | This markdown report |
-| `assets/sql-project/` | Folder with screenshots of query results |
+| [`Chinook_Sqlite.sqlite`](../Chinook_Sqlite.sqlite) | The SQLite database file |
+| [`sql-chinook-analysis.md`](sql-chinook-analysis.md) | This markdown report |
+| [`assets/sql-project/`](assets/sql-project/) | Folder with screenshots of query results |
 
 ---
+
 
 ## 🔗 References
 
