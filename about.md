@@ -7,6 +7,6 @@ I enjoy solving real-world problems with data — whether it's cleaning messy da
 ### 📜 Certifications
 
 - [Data Analyst Associate Certificate](../assets/certifications/data-analyst-associate.pdf)
-- [Data Literacy Certificate](../assets/certifications/data-literacy-certificate.pdf)
+- [Data Literacy Certificate](../assets/certifications/data-literacy.pdf)
 
 More certifications will be added here as I continue learning!
