@@ -6,7 +6,7 @@ I'm a data analyst and aspiring data scientist who turns raw data into insights 
 
 Explore my work below 👇
 - [Sales Dashboard in Power BI](projects/sales-dashboard.md)
-- [Google Sheet Data Analysis and Automation](projects/google-sheet-automation.md)
+- [Google Sheet Automation](projects/google-sheet-automation.md)
 - [Customer-Personality Analysis in Tableau](projects/tableau-customer-personality-analysis.md)
 
 📩 Contact me at syifnibir@gmail.com
