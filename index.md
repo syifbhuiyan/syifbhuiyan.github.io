@@ -5,9 +5,8 @@ I'm a data analyst and aspiring data scientist who turns raw data into insights 
 🎯 **Available for freelance gigs!**
 
 Explore my work below 👇
-- [Sales Dashboard in Power BI](projects/sales-dashboard.md)
+- [SQL Data Analysis: Chinook Music Store](projects/sql-chinook-analysis.md)
 - [Google Sheet Automation](projects/google-sheet-automation.md)
 - [Customer-Personality Analysis in Tableau](projects/tableau-customer-personality-analysis.md)
 
 📩 Contact me at syifnibir@gmail.com
-
