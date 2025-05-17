@@ -20,7 +20,8 @@ Businesses want a simple tool to monitor sales and receive weekly reports automa
 - Weekly email sent via Apps Script
 
 ## 📷 Screenshots
-*(Add screenshots from your dashboard and script editor)*
+![Google Sheet Dashboard](../assets/dashboards/sheet_dashboard.png)
+![Google SHeet Apps Script](../assets/dashboards/sheet_apps_script.png)
 
 ## 📎 Live Sheet Link
 [View on Google Sheets](https://docs.google.com/spreadsheets/d/1mTjLvfUeCnPcNXxCxZBNDhZgF5N9Izr-g65kiDpsp1o/edit?usp=sharing)
