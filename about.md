@@ -30,7 +30,7 @@ More certifications will be added here as I continue learning.
 ---
 ### 🧠 Professional Learning Record
 
-Explore my completed data science and analytics courses:
+Explore my completed data science and analytics courses from Coursera, skill and career tracks from Datacamp:
 
 - [View Full Record (Google Drive)](https://drive.google.com/drive/folders/1O4u6T-9mteSc2lpOb1Jv6W0_CEDLvjLi?usp=sharing)
 
