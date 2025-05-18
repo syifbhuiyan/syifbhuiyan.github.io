@@ -24,6 +24,7 @@ I’ve worked on public dataset projects ranging from automation and database qu
 ## 📄 Learn More
 
 - [About Me](about.md)
-- [View My Certifications](about.md#certifications)
+- [View My Verified Certifications](about.md#certifications)
+- [View Course & Track Completions (Google Drive)](https://drive.google.com/drive/folders/1O4u6T-9mteSc2lpOb1Jv6W0_CEDLvjLi?usp=drive_link)
 
 📩 [Contact me](mailto:syifnibir@gmail.com) to discuss your project!
