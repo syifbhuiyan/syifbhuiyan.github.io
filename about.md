@@ -2,7 +2,8 @@
 
 Hi, I’m Syif M. Bhuiyan — a data analyst and aspiring data scientist who turns raw data into clear, actionable insights.
 
-I’ve completed 9 career tracks and 13 skill tracks on DataCamp, with certifications in **Data Analysis** and **Data Literacy**. My toolset includes Python, R, SQL, Excel, Power BI, Tableau, and Google Sheets. From automating manual reporting to building dashboards and analyzing customer behavior, I enjoy solving real-world business problems with data.
+I’ve completed 9 career tracks and 13 skill tracks on DataCamp, with certifications in **Data Analysis** and **Data Literacy**. Also trained through Coursera with specializations from Google, Duke, Johns Hopkins, and the University of Michigan. 
+My toolset includes Python, R, SQL, Excel, Power BI, Tableau, and Google Sheets. From automating manual reporting to building dashboards and analyzing customer behavior, I enjoy solving real-world business problems with data.
 
 ### What I Do
 I help teams and businesses:
