@@ -28,5 +28,12 @@ Whether you need a one-time dashboard or ongoing data support, I’m here to hel
 More certifications will be added here as I continue learning.
 
 ---
+### 🧠 Professional Learning Record
+
+Explore my completed data science and analytics courses:
+
+- [View Full Record (Google Drive)](https://drive.google.com/drive/folders/1O4u6T-9mteSc2lpOb1Jv6W0_CEDLvjLi?usp=sharing)
+
+--- 
 
 📩 [Email me](mailto:syifnibir@gmail.com) for freelance projects or collaborations.
