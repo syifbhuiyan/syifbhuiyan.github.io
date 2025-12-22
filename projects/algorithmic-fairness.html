@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithmic Fairness & Information Asymmetry | Syif M. Bhuiyan</title>
+    <link rel="stylesheet" href="../assets/css/style.css"> </head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">Home</a> | 
+            <a href="../about.html">About Me</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Algorithmic Fairness & Information Asymmetry in Digital Finance</h1>
+        <p><strong>Theme:</strong> Human-Centered AI / Information Ethics / Fintech</p>
+
+        <h3>Goal</h3>
+        <p>To audit a credit scoring model for demographic bias and mitigate information asymmetry using "Fairness, Accountability, and Transparency" (FAccT) principles.</p>
+
+        <h3>Tools Used</h3>
+        <ul>
+            <li><strong>Python</strong> (Scikit-Learn, Pandas)</li>
+            <li><strong>Fairlearn</strong> (Microsoft's bias audit toolkit)</li>
+            <li><strong>Matplotlib</strong> (Data Visualization)</li>
+        </ul>
+
+        <h3>Project Overview</h3>
+        <p>Coming from an agri-fintech background, I investigated how alternative data sources in credit scoring can introduce unintended bias against specific demographics. This project simulates a credit risk scenario using the <strong>Home Credit Default Risk</strong> dataset.</p>
+        <p>The core research question: <em>How do automated decision systems penalize marginalized groups, and can we fix it without breaking the model?</em></p>
+
+        <h3>Key Findings & Insights</h3>
+        <ul>
+            <li><strong>Bias Detected:</strong> The baseline Logistic Regression model exhibited severe demographic disparity. It predicted "High Risk" for <strong>90.5%</strong> of Male applicants compared to only <strong>14.0%</strong> of Female applicants.</li>
+            <li><strong>Bias Mitigated:</strong> By applying a <code>ThresholdOptimizer</code> with <strong>Demographic Parity</strong> constraints, I successfully recalibrated the model.</li>
+            <li><strong>Outcome:</strong> The selection rate was equalized to approximately <strong>41.6%</strong> for both groups, ensuring the algorithm treats applicants based on financial history rather than gender.</li>
+        </ul>
+
+        <h3>Visualizing the Impact</h3>
+        <p>The chart below demonstrates the dramatic shift in selection rates before and after applying the fairness optimization:</p>
+        
+        <img src="../assets/fairness-project/fairness_chart.png" alt="Fairness Audit Chart showing balanced selection rates" style="max-width:100%; height:auto; border:1px solid #ddd;">
+
+        <h3>Project Files & Code</h3>
+        <p>This project includes a detailed Research Note and the full reproducible Python code.</p>
+        <ul>
+            <li><a href="https://github.com/syifbhuiyan/algorithmic-fairness-finance" target="_blank"><strong>View Full GitHub Repository</strong></a></li>
+            <li><a href="https://github.com/syifbhuiyan/algorithmic-fairness-finance/blob/main/research_note.md" target="_blank">Read the Research Note</a></li>
+        </ul>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Syif M. Bhuiyan</p>
+    </footer>
+</body>
+</html>
