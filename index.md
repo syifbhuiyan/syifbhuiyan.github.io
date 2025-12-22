@@ -10,6 +10,9 @@ I’ve worked on public dataset projects ranging from automation and database qu
 
 ## 📂 Featured Projects
 
+- [Algorithmic Fairness & Information Asymmetry](projects/algorithmic-fairness.html)  
+  Auditing a fintech credit scoring model for gender bias using Python and Fairlearn. Investigating FAccT principles in information systems.
+
 - [SQL Data Analysis: Chinook Music Store](projects/sql-chinook-analysis.md)  
   Exploratory data analysis on a music store's sales and customer behavior using SQL queries.
 
