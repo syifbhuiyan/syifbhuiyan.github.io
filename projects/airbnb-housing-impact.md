@@ -55,6 +55,9 @@ X = sm.add_constant(X)
 
 model = sm.OLS(Y, X).fit()
 print(model.summary())
+```
+
+---
 
 👉 **[View Full Code on GitHub](https://github.com/syifbhuiyan/nyc-airbnb-impact)**
 
