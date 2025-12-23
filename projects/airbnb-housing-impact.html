@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>The Airbnb Effect: NYC Housing Analysis</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="../assets/css/main.css" />
+    </head>
+    <body class="is-preload">
+
+        <div id="wrapper">
+
+            <div id="main">
+                <div class="inner">
+
+                    <header id="header">
+                        <a href="../index.html" class="logo"><strong>Syif M. Bhuiyan</strong> | Data Analyst</a>
+                    </header>
+
+                    <section>
+                        <header class="main">
+                            <h1>The Airbnb Effect: Impact on NYC Housing</h1>
+                        </header>
+
+                        <span class="image main"><img src="../assets/results_graph.png" alt="Graph showing correlation between Airbnb density and House Prices" /></span>
+
+                        <h2>Goal</h2>
+                        <p>Determine if "platformization" of housing (via Airbnb) correlates with higher local housing costs in New York City neighborhoods.</p>
+
+                        <h2>Tools Used</h2>
+                        <ul>
+                            <li><strong>Python (Pandas):</strong> For cleaning and merging disparate datasets.</li>
+                            <li><strong>Statsmodels (OLS Regression):</strong> To statistically quantify the relationship.</li>
+                            <li><strong>Plotly:</strong> For geospatial and regression visualization.</li>
+                            <li><strong>GitHub:</strong> For version control and reproducibility.</li>
+                        </ul>
+
+                        <h2>Project Overview</h2>
+                        <p>In the debate over urban housing affordability, short-term rentals are often cited as a driver of rising costs. This project utilizes Computational Social Science techniques to empirically test this theory using real-world data from <strong>Inside Airbnb</strong> and <strong>Zillow Research</strong>.</p>
+                        <p>I built a data pipeline to merge listing data with neighborhood-level housing value indices (ZHVI) across 164 NYC neighborhoods to perform a regression analysis.</p>
+
+                        <hr class="major" />
+
+                        <h2>Key Insights & Findings</h2>
+                        <ul>
+                            <li><strong>Statistically Significant:</strong> The model yielded a P-value of <strong>0.000</strong>, confirming the relationship is non-random.</li>
+                            <li><strong>The "Airbnb Premium":</strong> The regression coefficient suggests that <strong>for every 1 new Airbnb listing</strong> added to a neighborhood, average annual home values increase by approximately <strong>$585</strong>.</li>
+                            <li><strong>Correlation vs Causation:</strong> While the model explains ~10% of price variance (R-squared = 0.097), it highlights that short-term rental density is a significant market signal, functioning alongside other variables like location desirability.</li>
+                        </ul>
+
+                        <h2>Code Snippet: The Regression Model</h2>
+                        <pre><code>
+# Running Ordinary Least Squares (OLS) Regression
+import statsmodels.api as sm
+
+Y = master_df['avg_house_price']
+X = master_df['airbnb_count']
+X = sm.add_constant(X)
+
+model = sm.OLS(Y, X).fit()
+print(model.summary())
+                        </code></pre>
+
+                        <p>
+                            <a href="nyc-airbnb-impact" class="button primary">View Full Code on GitHub</a>
+                        </p>
+
+                    </section>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
