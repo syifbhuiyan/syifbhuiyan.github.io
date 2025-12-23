@@ -12,8 +12,7 @@ My goal is to bridge the gap between technical data science and social inquiry, 
 ## 📂 Computational Social Science & Research Projects
 
 - [How do automated decision systems penalize marginalized groups, and can we fix it without breaking the model?](projects/algorithmic-fairness.md)  
-  Auditing a fintech credit scoring model for gender bias using Python and Fairlearn. Investigating FAccT principles in information systems.
-  Methodology: I replicated a credit scoring pipeline and applied Microsoft’s Fairlearn toolkit to test 'Demographic Parity' constraints.
+  Auditing a fintech credit scoring model for gender bias using Python and Fairlearn. Investigating FAccT principles in information systems. I replicated a credit scoring pipeline and applied Microsoft’s Fairlearn toolkit to test 'Demographic Parity' constraints.
 
 - [The Airbnb Effect: NYC Housing Markets](projects/airbnb-housing-impact.md)  
   A Computational Social Science project using Python and OLS Regression to quantify how short-term rental density impacts local housing prices across 164 NYC neighborhoods.
