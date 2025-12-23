@@ -1,8 +1,3 @@
----
-layout: default
-title: Algorithmic Fairness & Information Asymmetry
----
-
 # Algorithmic Fairness & Information Asymmetry in Digital Finance
 
 [Home](../index.md) | [About Me](../about.md)
