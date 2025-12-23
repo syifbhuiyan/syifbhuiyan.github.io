@@ -1,7 +1,7 @@
 # The Airbnb Effect: Impact on NYC Housing
 
 **Syif M. Bhuiyan | Data Analyst**  
-[Back to Home](../index.html)
+[Back to Home](../index.md)
 
 ---
 
