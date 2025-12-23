@@ -2,6 +2,12 @@
 
 I am a data analyst and prospective graduate researcher focused on **Information Science** and **Human-Centered AI**. My work sits at the intersection of technical data analysis and social ethics—using code not just to optimize business metrics, but to audit systems and uncover sociotechnical dynamics.
 
+### Research Focus
+My interest in Information Science stems from the "black box" nature of modern digital systems. I am specifically interested in:
+1.  **Auditing Algorithms:** How do fintech models encode historical biases? (See my *Algorithmic Fairness* project).
+2.  **Platform Economics:** How do digital platforms reshape physical neighborhoods? (See my *Airbnb Effect* project).
+3.  **Digital Discourse:** How does sentiment on social media reflect societal anxieties regarding AI? (See my *NLP project*).
+
 ### Research Interests
 * **Algorithmic Accountability:** Investigating bias in automated decision-making systems (e.g., credit scoring, hiring).
 * **Computational Social Science:** Using digital trace data to understand housing markets and urban dynamics.
@@ -20,13 +26,13 @@ I have built a rigorous foundation in data science through specialized tracks, i
 
 I am currently seeking a **PhD or research-focused MS** where I can further explore how information systems perpetuate or mitigate social inequalities.
 
+---
 
-### 📜 Certifications
+### 📜 Academic & Technical Certifications
 - [Data Analyst Associate Certificate](/assets/certifications/data-analyst-associate.pdf)
 - [Data Literacy Certificate](/assets/certifications/data-literacy.pdf)
 
----
-### 🧠 Professional Learning Record
+### 🧠 Academic & Technical Preparation
 
 Explore my completed data science and analytics courses from Coursera, skill and career tracks from Datacamp:
 
@@ -34,4 +40,4 @@ Explore my completed data science and analytics courses from Coursera, skill and
 
 --- 
 
-📩 [Email me](mailto:syifnibir@gmail.com) for collaborations.
+📩 [Email me](mailto:syifnibir@gmail.com) to discuss my research or methodologies.
