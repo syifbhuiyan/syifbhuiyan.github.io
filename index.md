@@ -1,10 +1,9 @@
-# 👋 Hi, I'm Syif M. Bhuiyan
+# Hi, I'm Syif M. Bhuiyan.
+### Data Analyst & Aspiring Researcher in Information Science
 
-I’m a data analyst who helps businesses uncover insights and build smarter solutions through data. I specialize in Python, SQL, Excel, Power BI, Tableau, and Google Sheets.
+I utilize **Computational Social Science** and **Data Analytics** to investigate algorithmic fairness, digital economics, and information asymmetry.
 
-I’ve worked on public dataset projects ranging from automation and database querying to dashboard creation and exploratory data analysis — with the goal of making data easier to understand and act on.
-
-🎯 **Available for freelance projects and collaborations**
+My goal is to bridge the gap between technical data science and social inquiry, applying methods like **OLS Regression**, **Bias Auditing**, and **Causal Inference** to understand how information systems impact society.
 
 ---
 
