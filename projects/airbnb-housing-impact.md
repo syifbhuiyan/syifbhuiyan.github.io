@@ -59,6 +59,12 @@ print(model.summary())
 
 ---
 
+## Limitations
+
+While this study establishes a strong correlation (R-squared = 0.097), further work using Difference-in-Differences (DiD) would be required to establish causality.
+
+---
+
 👉 **[View Full Code on GitHub](https://github.com/syifbhuiyan/nyc-airbnb-impact)**
 
 ---
