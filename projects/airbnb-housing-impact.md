@@ -59,9 +59,9 @@ print(model.summary())
 
 ---
 
-## Limitations
+## Methodological Note
 
-While this study establishes a strong correlation (R-squared = 0.097), further work using Difference-in-Differences (DiD) would be required to establish causality.
+While this OLS regression establishes a statistically significant correlation ($R^2=0.097$) between short-term rental density and housing prices, I acknowledge that correlation does not imply causation. A future iteration of this study would ideally employ a Difference-in-Differences (DiD) approach or Instrumental Variable (IV) analysis to better isolate the causal impact of Airbnb market entry.
 
 ---
 
