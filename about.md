@@ -26,6 +26,11 @@ I have built a rigorous foundation in data science through specialized tracks, i
 
 I am currently seeking a **PhD or research-focused MS** where I can further explore how information systems perpetuate or mitigate social inequalities.
 
+### Curriculum Vitae
+For a detailed breakdown of my academic history and technical skills, please review my CV.
+
+[Download CV (PDF)](cv.pdf)
+
 ---
 
 ### 📜 Academic & Technical Certifications
