@@ -7,6 +7,19 @@ My goal is to bridge the gap between technical data science and social inquiry, 
 
 🎯 Open to research collaborations and academic opportunities.
 
+<div style="margin-top: 20px;">
+  <a href="cv.pdf" target="_blank" style="
+    background-color: #24292e; 
+    color: white; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    font-weight: bold;
+    font-family: sans-serif;">
+    📄 Download My CV
+  </a>
+</div>
+
 ---
 
 ## 📂 Computational Social Science & Research Projects
