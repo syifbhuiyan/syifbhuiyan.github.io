@@ -27,8 +27,8 @@ My goal is to bridge the gap between technical data science and social inquiry, 
 - [How Do Automated Decision Systems Penalize Marginalized Groups, & Can We Fix It Without Breaking The Model?](projects/algorithmic-fairness.md)  
   Auditing a fintech credit scoring model for gender bias using Python and Fairlearn. Investigating FAccT principles in information systems. I replicated a credit scoring pipeline and applied Microsoft’s Fairlearn toolkit to test 'Demographic Parity' constraints.
 
-**[Panel Data Analysis of Climate Variances on Regional Crop Yields](projects/climate-panel-analysis.html)**
-A Computational Social Science project utilizing Python, FCC reverse-geocoding APIs, and Two-Way Fixed-Effects regression to empirically isolate the causal impact of temperature variances on US agricultural outputs.
+- [Panel Data Analysis of Climate Variances on Regional Crop Yields](projects/climate-panel-analysis.html)
+  A Computational Social Science project utilizing Python, FCC reverse-geocoding APIs, and Two-Way Fixed-Effects regression to empirically isolate the causal impact of temperature variances on US agricultural outputs.
 
 - [Social Media Sentiment & Topic Extraction](projects/social-media-nlp.md)  
   A Computational Text Analysis project using Python, VADER, and Gensim. Built an automated pipeline to clean unstructured social media comments, quantify public sentiment, and extract latent discourse topics using Latent Dirichlet Allocation (LDA).
