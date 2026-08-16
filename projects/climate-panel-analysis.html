@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Climate Variance & Crop Yields | syifbhuiyan</title>
+    <link rel="stylesheet" href="../styles.css"> 
+</head>
+<body>
+
+<header>
+    <h1>syifbhuiyan</h1>
+</header>
+
+<main>
+    <h2>Panel Data Analysis of Climate Variances on Regional Crop Yields</h2>
+    <p><a href="../index.html">Home</a> | <a href="../about.html">About Me</a></p>
+    
+    <hr>
+
+    <p><strong>Theme:</strong> Computational Social Science / Agricultural Economics / Climate</p>
+
+    <h3>Goal</h3>
+    <p>To statistically quantify the causal impact of temperature and precipitation variances on county-level crop yields across the US, controlling for unobserved local traits and macroeconomic shocks.</p>
+
+    <hr>
+
+    <h3>Tools Used</h3>
+    <ul>
+        <li><strong>Python (Pandas):</strong> For merging misaligned geographic and longitudinal datasets (FIPS codes) and reverse-geocoding coordinates via the FCC API.</li>
+        <li><strong>linearmodels (PanelOLS):</strong> To execute the two-way fixed-effects econometric regression.</li>
+        <li><strong>Seaborn/Matplotlib:</strong> For statistical data visualization.</li>
+        <li><strong>GitHub:</strong> For version control and reproducibility.</li>
+    </ul>
+
+    <hr>
+
+    <h3>Project Overview</h3>
+    <p>Agricultural outputs are highly susceptible to climate volatility, but measuring this impact is difficult due to unobservable variables like local soil quality or national fertilizer price shocks. This project utilizes Computational Social Science techniques to empirically isolate weather impacts using real-world data from the <strong>USDA NASS</strong> and <strong>NOAA</strong>.</p>
+    <p>I built a data pipeline to merge county-level weather data with annual corn yield outputs, utilizing reverse-geocoding to align inconsistent spatial markers. The data was structured into a multi-index panel to perform advanced econometric analysis.</p>
+
+    <hr>
+
+    <h3>Key Insights & Findings</h3>
+    <ul>
+        <li><strong>Methodological Validation (F-test):</strong> The F-test for Poolability yielded a P-value of 0.0014. This is highly statistically significant, confirming that unobserved entity (county) effects exist and that using a Fixed-Effects model was strictly necessary over standard Pooled OLS.</li>
+        <li><strong>Omitted Variable Bias Revealed:</strong> The raw, uncontrolled correlation between temperature and yield appeared negative. However, after controlling for spatial and temporal fixed effects, the model revealed a positive coefficient (2.3979). This demonstrates the danger of Simpson's Paradox in observational data and validates the need for rigorous causal inference methodologies.</li>
+        <li><strong>Statistical Significance Limitations:</strong> Within this specific, filtered 53-observation sample, the climatic variables did not achieve statistical significance at the standard alpha level (Temperature P-value = 0.1443; Precipitation P-value = 0.5891). This suggests that isolated climatic variances within this specific subset did not independently drive yield changes, or a larger multi-state sample size is required to reduce standard errors.</li>
+    </ul>
+
+    <hr>
+
+    <h3>Visualizing the Impact</h3>
+    <p>The chart below visualizes the raw correlation between average temperature and crop yields across the observed counties. While the basic trendline implies a negative relationship, the panel regression proves this is largely driven by unobserved regional differences rather than direct temperature causality.</p>
+    
+    <img src="image.png" alt="Scatterplot of Temperature vs Yields" style="max-width:100%; height:auto; border:1px solid #ccc;">
+
+    <hr>
+
+    <h3>Code Snippet: The Two-Way Fixed-Effects Model</h3>
+    <p>To eliminate omitted variable bias, I utilized a fixed-effects model to control for time-invariant county traits ($\alpha_i$) and national year-over-year shocks ($\gamma_t$).</p>
+    
+    <pre style="background-color: #f4f4f4; padding: 15px; border-radius: 5px; overflow-x: auto;">
+<code># Define exogenous variables and add a constant
+exog_vars = ['Temp', 'Precip']
+exog = sm.add_constant(master_df[exog_vars])
+endog = master_df['Yield']
+
+# Fit the Two-Way Fixed Effects Model
+# entity_effects=True controls for alpha_i, time_effects=True controls for gamma_t
+model = PanelOLS(endog, exog, entity_effects=True, time_effects=True)
+
+# Utilize clustered standard errors for spatial/serial correlation
+results = model.fit(cov_type='clustered', cluster_entity=True)
+print(results.summary)</code>
+    </pre>
+
+    <hr>
+
+    <h3>Project Files & Code</h3>
+    <p>This project includes the full reproducible Python code and datasets.</p>
+    <ul>
+        <li><a href="https://github.com/YOUR_GITHUB_USERNAME/climate-crop-panel-analysis" target="_blank">View Full GitHub Repository</a></li>
+    </ul>
+
+    <p style="font-size: 0.8em; color: #777;">&copy; 2026 Syif M. Bhuiyan</p>
+</main>
+
+</body>
+</html>
