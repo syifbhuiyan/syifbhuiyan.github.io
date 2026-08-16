@@ -1,17 +1,17 @@
 # About Me
 
-I am a data analyst and prospective graduate researcher focused on **Information Science** and **Human-Centered AI**. My work sits at the intersection of technical data analysis and social ethics—using code not just to optimize business metrics, but to audit systems and uncover sociotechnical dynamics.
+I am a data analyst and prospective graduate researcher focused on **Agricultural and Resource Economics (ARE)**. My work sits at the intersection of applied econometrics and agricultural finance—using code not just to optimize business metrics, but to empirically evaluate agricultural productivity, land use, and financial inclusion.
 
 ### Research Focus
-My interest in Information Science stems from the "black box" nature of modern digital systems. I am specifically interested in:
-1.  **Auditing Algorithms:** How do fintech models encode historical biases? (See my *Algorithmic Fairness* project).
-2.  **Platform Economics:** How do digital platforms reshape physical neighborhoods? (See my *Airbnb Effect* project).
-3.  **Digital Discourse:** How does sentiment on social media reflect societal anxieties regarding AI? (See my *NLP project*).
+My interest in Resource Economics stems from my professional background in Agri-Fintech, where I integrated agricultural production data with financial metrics to refine farmer credit-scoring parameters. I am specifically interested in:
+1.  **Climate & Resource Economics:** How do temperature and precipitation variances impact regional crop yields? (See my Panel Data Analysis project).
+2.  **Spatial & Land Use Economics:** How do digital platforms and policy changes reshape physical neighborhoods and housing markets? (See my Airbnb Effect project).
+3.  **Agricultural Finance & Risk:** How can we evaluate and mitigate demographic bias in fintech lending and rural credit scoring? (See my Credit Risk Audit project).
 
 ### Research Interests
-* **Algorithmic Accountability:** Investigating bias in automated decision-making systems (e.g., credit scoring, hiring).
-* **Computational Social Science:** Using digital trace data to understand housing markets and urban dynamics.
-* **Information Ethics:** Analyzing the "FAccT" (Fairness, Accountability, and Transparency) principles in fintech.
+* **Agricultural Finance:** Rural credit risk, Agri-Fintech, and financial inclusion.
+* **Applied Econometrics:** Two-way fixed-effects panel data, spatial data integration, and causal inference.
+* **Resource & Spatial Economics:** Housing markets, land use, and climate variances.
 
 ### Technical & Methodological Toolkit
 I combine statistical rigor with data engineering skills to handle complex datasets.
