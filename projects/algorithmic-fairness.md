@@ -4,7 +4,7 @@
 
 ---
 
-**Theme:** Human-Centered AI / Information Ethics / Fintech
+**Theme:** Agri-Fintech / Rural Credit Risk / Financial Inclusion
 
 ---
 
