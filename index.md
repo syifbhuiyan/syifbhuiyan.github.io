@@ -22,7 +22,7 @@ My goal is to bridge the gap between technical data science and applied economic
 
 ---
 
-## 📂 Computational Social Science & Research Projects
+## 📂 Empirical Economics & Applied Econometrics Projects
 
 - [How Do Automated Decision Systems Penalize Marginalized Groups, & Can We Fix It Without Breaking The Model?](projects/algorithmic-fairness.md)  
   Auditing a fintech credit scoring model for gender bias using Python and Fairlearn. Investigating FAccT principles in information systems. I replicated a credit scoring pipeline and applied Microsoft’s Fairlearn toolkit to test 'Demographic Parity' constraints.
@@ -31,7 +31,7 @@ My goal is to bridge the gap between technical data science and applied economic
   A Computational Social Science project utilizing Python, FCC reverse-geocoding APIs, and Two-Way Fixed-Effects regression to empirically isolate the causal impact of temperature variances on US agricultural outputs.
 
 - [Social Media Sentiment & Topic Extraction](projects/social-media-nlp.md)  
-  A Computational Text Analysis project using Python, VADER, and Gensim. Built an automated pipeline to clean unstructured social media comments, quantify public sentiment, and extract latent discourse topics using Latent Dirichlet Allocation (LDA).
+  A Computational Text Analysis project using Python, VADER, and Gensim. Built an automated pipeline to clean unstructured social media comments, quantify public sentiment, and extract latent discourse topics using Latent Dirichlet Allocation (LDA). This text-processing pipeline can be adapted to scrape and analyze unstructured economic policy documents, agricultural news sentiment, or commodity market reports.
 
 - [The Airbnb Effect: NYC Housing Markets](projects/airbnb-housing-impact.md)  
   A Computational Social Science project using Python and OLS Regression to quantify how short-term rental density impacts local housing prices across 164 NYC neighborhoods.
@@ -39,12 +39,6 @@ My goal is to bridge the gap between technical data science and applied economic
 ---
 
 ##  Technical & Data Engineering Projects
-
-- [SQL Data Analysis: Chinook Music Store](projects/sql-chinook-analysis.md)  
-  Exploratory data analysis on a music store's sales and customer behavior using SQL queries.
-
-- [Customer-Personality Analysis in Tableau](projects/tableau-customer-personality-analysis.md)  
-  Built an interactive dashboard for visualizing customer segmentation data.
 
 - [Google Sheet Automation](projects/google-sheet-automation.md)  
   Streamlined manual workflows using formulas and conditional formatting in Google Sheets.
