@@ -1,9 +1,9 @@
 # Hi, I'm Syif M. Bhuiyan.
-### Data Analyst & Aspiring Researcher in Information Science
+### Data Analyst & Aspiring Researcher in Agricultural & Resource Economics
 
-I apply data science methods to investigate social and economic systems. I have utilized **Computational Social Science** and **Data Analytics** to investigate algorithmic fairness, digital economics, and information asymmetry.
+I apply **applied econometrics** and **data science** to investigate agricultural finance, resource economics, and spatial markets. I utilize Python and spatial datasets to evaluate crop yields, rural credit risk, and land use dynamics.
 
-My goal is to bridge the gap between technical data science and social inquiry, applying methods like **OLS Regression**, **Bias Auditing**, and **Causal Inference** to understand how information systems impact society.
+My goal is to bridge the gap between technical data science and applied economics, utilizing methods like **Fixed-Effects Panel Regressions**, **Spatial Data Integration**, and **Causal Inference** to evaluate resource allocation and economic policy.
 
 🎯 Open to research collaborations and academic opportunities.
 
