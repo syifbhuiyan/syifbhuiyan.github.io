@@ -35,7 +35,7 @@ For a detailed breakdown of my academic history and technical skills, please rev
 
 ### 📜 Academic & Technical Certifications
 - [Data Analyst Associate Certificate](/assets/certifications/data-analyst-associate.pdf)
-- [Data Literacy Certificate](/assets/certifications/data-literacy.pdf)
+- [Google Advanced Data Analytics Professional Certificate](/assets/certifications/google-advanced-data-analytics-professional.pdf)
 
 ### 🧠 Academic & Technical Preparation
 
