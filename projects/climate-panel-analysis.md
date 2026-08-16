@@ -41,7 +41,7 @@ I built a data pipeline to merge county-level weather data with annual corn yiel
 ### Visualizing the Impact
 The chart below visualizes the raw correlation between average temperature and crop yields across the observed counties. While the basic trendline implies a negative relationship, the panel regression proves this is largely driven by unobserved regional differences rather than direct temperature causality.
 
-![Scatterplot of Temperature vs Yields](image.png)
+![Scatterplot of Temperature vs Yields](../assets/image.png)
 
 ---
 
@@ -57,6 +57,10 @@ endog = master_df['Yield']
 # Fit the Two-Way Fixed Effects Model
 # entity_effects=True controls for alpha_i, time_effects=True controls for gamma_t
 model = PanelOLS(endog, exog, entity_effects=True, time_effects=True)
+
+# Utilize clustered standard errors for spatial/serial correlation
+results = model.fit(cov_type='clustered', cluster_entity=True)
+print(results.summary)
 ```
 
 ---
@@ -64,6 +68,5 @@ model = PanelOLS(endog, exog, entity_effects=True, time_effects=True)
 ### Project Files & Code
 This project includes the full reproducible Python code and datasets.
 * [View Full GitHub Repository](https://github.com/syifbhuiyan/climate-crop-panel-analysis)
-# Utilize clustered standard errors for spatial/serial correlation
 results = model.fit(cov_type='clustered', cluster_entity=True)
 print(results.summary)
