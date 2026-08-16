@@ -67,6 +67,5 @@ print(results.summary)
 
 ### Project Files & Code
 This project includes the full reproducible Python code and datasets.
-* [View Full GitHub Repository](https://github.com/syifbhuiyan/climate-crop-panel-analysis)
-results = model.fit(cov_type='clustered', cluster_entity=True)
+* [View Full GitHub Repository](https://github.com/syifbhuiyan/climate-crop-panel-analysis)lts = model.fit(cov_type='clustered', cluster_entity=True)
 print(results.summary)
